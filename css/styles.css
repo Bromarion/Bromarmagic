@@ -7464,3 +7464,28 @@ form .row:first-child .floating-label-form-group {
 }body {
     overflow-x: hidden;
 }
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#mainNav,
+#mainNav .container {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.navbar-collapse {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.navbar-logo {
+  height: 60px;
+  width: auto;
+  max-width: 100%;
+}
